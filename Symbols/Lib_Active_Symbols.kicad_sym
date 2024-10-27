@@ -2087,7 +2087,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -11.43 15.24 0)
+			(at 1.016 14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +2096,7 @@
 			)
 		)
 		(property "Value" "LM358DG4"
-			(at -11.43 13.208 0)
+			(at 1.016 12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2135,7 @@
 			)
 		)
 		(property "Package" "SOP-8"
-			(at -11.43 11.176 0)
+			(at 1.016 10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,8 +2698,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC"
-			(at -4.064 8.89 0)
+		(property "Reference" "U"
+			(at 13.97 9.144 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -2709,7 +2709,7 @@
 			)
 		)
 		(property "Value" "LMV321AUIDBVR"
-			(at -4.064 6.35 0)
+			(at 13.97 6.604 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -2757,7 +2757,7 @@
 			)
 		)
 		(property "Package" "SOT-23-5"
-			(at -4.064 3.302 0)
+			(at 13.97 3.556 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -3987,7 +3987,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC"
+		(property "Reference" "U"
 			(at 3.302 9.144 0)
 			(do_not_autoplace)
 			(effects
