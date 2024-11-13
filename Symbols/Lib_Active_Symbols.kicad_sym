@@ -158,7 +158,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 1.778 6.35 0)
+			(at 1.778 7.874 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -168,7 +168,7 @@
 			)
 		)
 		(property "Value" "General"
-			(at 1.778 4.572 0)
+			(at 1.778 6.096 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -207,7 +207,17 @@
 			)
 		)
 		(property "Package" "SMA"
-			(at 1.778 2.794 0)
+			(at 1.778 4.318 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Current" "1A"
+			(at 1.778 2.54 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -3972,7 +3982,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 1.778 6.35 0)
+			(at 2.54 7.874 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +3992,8 @@
 			)
 		)
 		(property "Value" "Schottky"
-			(at 1.778 4.572 0)
+			(at 2.54 6.096 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +4002,7 @@
 			)
 		)
 		(property "Footprint" "Lib_Active_Footprints:SMA"
-			(at 1.778 2.794 0)
+			(at -0.508 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +4012,8 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 8.89 7.366 0)
+			(at 8.89 8.636 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +4023,7 @@
 			)
 		)
 		(property "Description" "Diode, filled shape"
-			(at 1.778 2.794 0)
+			(at -0.508 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +4033,18 @@
 			)
 		)
 		(property "Package" "SMA"
-			(at 1.778 2.794 0)
+			(at 2.54 4.318 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Current" "1A"
+			(at 2.54 2.54 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
