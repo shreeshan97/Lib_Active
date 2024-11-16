@@ -151,7 +151,7 @@
 			)
 		)
 	)
-	(symbol "General Diode"
+	(symbol "General-Diode"
 		(pin_names
 			(offset 1.016) hide)
 		(exclude_from_sim no)
@@ -196,7 +196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode, filled shape"
+		(property "Description" "General purpose diode"
 			(at -0.635 0 0)
 			(effects
 				(font
@@ -226,7 +226,7 @@
 				(justify left)
 			)
 		)
-		(property "ki_keywords" "diode"
+		(property "ki_keywords" "general diode"
 			(at 0 0 0)
 			(effects
 				(font
@@ -244,7 +244,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "General Diode_0_1"
+		(symbol "General-Diode_0_1"
 			(polyline
 				(pts
 					(xy 2.54 1.27) (xy 2.54 -1.27)
@@ -282,7 +282,7 @@
 				)
 			)
 		)
-		(symbol "General Diode_1_1"
+		(symbol "General-Diode_1_1"
 			(pin passive line
 				(at 7.62 0 180)
 				(length 2.54)
@@ -3975,7 +3975,7 @@
 			)
 		)
 	)
-	(symbol "Schottky Diode"
+	(symbol "Schottky-Diode"
 		(pin_names
 			(offset 1.016) hide)
 		(exclude_from_sim no)
@@ -4070,7 +4070,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Schottky Diode_0_1"
+		(symbol "Schottky-Diode_0_1"
 			(polyline
 				(pts
 					(xy 6.35 0) (xy 3.81 0)
@@ -4108,7 +4108,7 @@
 				)
 			)
 		)
-		(symbol "Schottky Diode_1_1"
+		(symbol "Schottky-Diode_1_1"
 			(pin passive line
 				(at 10.16 0 180)
 				(length 3.81)
@@ -4538,6 +4538,180 @@
 					(effects
 						(font
 							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Zener-Diode"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 1.905 8.255 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Zener"
+			(at 1.905 6.35 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Lib_Active_Footprints:MMELF"
+			(at 0 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, filled shape"
+			(at 0 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "MMELF"
+			(at 1.905 4.445 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Current" "0.25A"
+			(at 1.905 2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_keywords" "zener diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Zener-Diode_0_1"
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.27) (xy 2.54 1.27) (xy 3.048 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -1.27) (xy 5.08 1.27) (xy 2.54 0) (xy 5.08 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "Zener-Diode_1_1"
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)

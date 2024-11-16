@@ -208,9 +208,9 @@
 		(solder_mask_margin 0.102)
 		(uuid "1e733ecc-bd72-4431-bdb6-6fe8075c63e6")
 	)
-	(model "${KIPRJMOD}/Library/Lib_Active/3DModels/MMELF.step"
+	(model "${KIPRJMOD}/Library/Lib_Active/3DModels/MMELF.stp"
 		(offset
-			(xyz 0 -0.75 0.8)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
