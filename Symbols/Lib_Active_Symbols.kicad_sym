@@ -78,7 +78,7 @@
 		(symbol "ADuM121N_0_0"
 			(rectangle
 				(start 5.08 8.89)
-				(end 20.32 -12.7)
+				(end 20.32 -13.97)
 				(stroke
 					(width 0.4064)
 					(type default)
@@ -106,7 +106,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -3.81 0)
+				(at 0 -5.08 0)
 				(length 5.08)
 				(name "VIB"
 					(effects
@@ -142,7 +142,7 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 -16.51 90)
+				(at 8.89 -17.78 90)
 				(length 3.81)
 				(name "GND1"
 					(effects
@@ -178,7 +178,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -16.51 90)
+				(at 16.51 -17.78 90)
 				(length 3.81)
 				(name "GND2"
 					(effects
@@ -214,7 +214,7 @@
 				)
 			)
 			(pin output line
-				(at 25.4 -3.81 180)
+				(at 25.4 -5.08 180)
 				(length 5.08)
 				(name "VOB"
 					(effects
@@ -4312,7 +4312,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -4.826 8.128 0)
+			(at -3.048 8.382 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -4322,7 +4322,7 @@
 			)
 		)
 		(property "Value" "SRV05-4"
-			(at -4.826 6.096 0)
+			(at -3.048 6.35 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -4372,18 +4372,19 @@
 			)
 		)
 		(property "Package" "SOT-23-6"
-			(at 0.508 4.064 0)
+			(at -3.048 4.318 0)
 			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(symbol "SRV05-4_0_0"
 			(rectangle
-				(start 2.54 -7.62)
-				(end 12.7 2.54)
+				(start 2.54 2.54)
+				(end 15.24 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4392,66 +4393,12 @@
 					(type background)
 				)
 			)
-			(pin bidirectional line
-				(at 0 -5.08 0)
-				(length 2.54)
-				(name "IO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "IO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -5.08 180)
-				(length 2.54)
-				(name "IO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 		)
 		(symbol "SRV05-4_1_0"
 			(pin bidirectional line
 				(at 0 0 0)
 				(length 2.54)
-				(name "IO"
+				(name "IO1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4466,8 +4413,26 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 0 -5.08 0)
+				(length 2.54)
+				(name "IO2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at 7.62 5.08 270)
+				(at 8.89 5.08 270)
 				(length 2.54)
 				(name "Vp"
 					(effects
@@ -4485,7 +4450,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -10.16 90)
+				(at 8.89 -10.16 90)
 				(length 2.54)
 				(name "Vn"
 					(effects
@@ -4495,6 +4460,42 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 0 180)
+				(length 2.54)
+				(name "IO4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -5.08 180)
+				(length 2.54)
+				(name "IO3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5930,7 +5931,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -1.016 11.684 0)
+			(at -3.556 9.144 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5939,7 +5940,7 @@
 			)
 		)
 		(property "Value" "TJA1462AT/0Z"
-			(at -1.016 9.144 0)
+			(at -3.556 6.604 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5948,7 +5949,7 @@
 			)
 		)
 		(property "Footprint" "Lib_Active_Footprints:SOP-8"
-			(at 3.048 -4.572 0)
+			(at 0.508 -7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +5960,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TJA1462.pdf"
-			(at 3.048 -4.572 0)
+			(at 0.508 -7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +5971,7 @@
 			)
 		)
 		(property "Description" "CAN SIC transceiver with Standby mode"
-			(at 3.048 -4.572 0)
+			(at 0.508 -7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +5981,7 @@
 			)
 		)
 		(property "Package" "SOP-8"
-			(at -0.762 6.858 0)
+			(at -3.302 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6008,7 +6009,7 @@
 		)
 		(symbol "TJA1462AT_0Z_0_1"
 			(pin power_in line
-				(at 2.54 2.54 0)
+				(at 0 0 0)
 				(length 5.08)
 				(name "VIO"
 					(effects
@@ -6025,26 +6026,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 2.54 -2.54 0)
-				(length 5.08)
-				(name "TXD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at 2.54 -7.62 0)
+				(at 0 -5.08 0)
 				(length 5.08)
 				(name "RXD"
 					(effects
@@ -6062,7 +6045,25 @@
 				)
 			)
 			(pin input line
-				(at 2.54 -12.7 0)
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "TXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -15.24 0)
 				(length 5.08)
 				(name "STB"
 					(effects
@@ -6080,7 +6081,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 10.16 270)
+				(at 15.24 7.62 270)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -6098,7 +6099,7 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 -20.32 90)
+				(at 15.24 -22.86 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -6116,7 +6117,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 -2.54 180)
+				(at 30.48 -5.08 180)
 				(length 5.08)
 				(name "CANH"
 					(effects
@@ -6134,7 +6135,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 -7.62 180)
+				(at 30.48 -10.16 180)
 				(length 5.08)
 				(name "CANL"
 					(effects
@@ -6154,8 +6155,8 @@
 		)
 		(symbol "TJA1462AT_0Z_1_1"
 			(rectangle
-				(start 7.62 5.08)
-				(end 27.94 -15.24)
+				(start 5.08 2.54)
+				(end 25.4 -17.78)
 				(stroke
 					(width 0)
 					(type solid)
@@ -6326,6 +6327,201 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "USBLC6-2SC6"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -3.048 8.382 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at -3.048 6.35 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Lib_Active_Footprints:SOT-23-6"
+			(at -7.874 -2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/cd00050750.pdf"
+			(at -7.874 -2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB ESD Protection Device"
+			(at -7.874 -2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-6"
+			(at -3.048 4.318 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(symbol "USBLC6-2SC6_0_0"
+			(rectangle
+				(start 2.54 2.54)
+				(end 15.24 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "USBLC6-2SC6_1_0"
+			(pin bidirectional line
+				(at 0 0 0)
+				(length 2.54)
+				(name "IO1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -5.08 0)
+				(length 2.54)
+				(name "IO2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 5.08 270)
+				(length 2.54)
+				(name "Vp"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 -10.16 90)
+				(length 2.54)
+				(name "Vn"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 0 180)
+				(length 2.54)
+				(name "IO1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -5.08 180)
+				(length 2.54)
+				(name "IO2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
 						)
 					)
 				)
